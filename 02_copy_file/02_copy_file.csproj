@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_02_copy_file</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FileTransferManager" Version="1.0.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.8.0" />
+    <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.4" />
+    <PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
